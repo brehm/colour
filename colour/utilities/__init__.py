@@ -20,7 +20,8 @@ from .metadata import (
     Metadata,
     UnitMetadata,
     CallableMetadata,
-    FunctionMetadata)
+    FunctionMetadata,
+    set_metadata)
 from .array import (
     as_numeric,
     closest,
@@ -55,7 +56,8 @@ __all__ = ['handle_numpy_errors',
 __all__ += ['Metadata',
             'UnitMetadata',
             'CallableMetadata',
-            'FunctionMetadata']
+            'FunctionMetadata',
+            'set_metadata']
 __all__ += ['as_numeric',
             'closest',
             'normalise_maximum',
