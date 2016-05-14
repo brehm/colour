@@ -47,6 +47,8 @@ if sys.version_info[0] >= 3:
     builtins.reduce = functools.reduce
     itertools.izip = zip
 
+# import numpy as np
+# np.set_printoptions(formatter={'float': '{: 0.8f}'.format})
 from .adaptation import *  # noqa
 from . import adaptation  # noqa
 from .algebra import *  # noqa
